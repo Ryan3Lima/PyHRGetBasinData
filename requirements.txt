@@ -1,0 +1,27 @@
+# Hyriver stack
+pygeohydro
+pynhd
+py3dep
+
+# open street maps
+osmnx
+networkx
+
+
+# core geospatial stack
+geopandas
+rioxarray
+xarray
+xarray-spatial
+shapely
+pyproj
+rasterio
+rioxarray
+xarray
+
+# plotting mapping
+matplotlib
+folium
+
+# web app
+streamlit

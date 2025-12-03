@@ -1,0 +1,58 @@
+# =====================
+# Python / virtualenv
+# =====================
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =====================
+# PyCharm / IDE
+# =====================
+.idea/
+*.iml
+
+# =====================
+# Streamlit
+# =====================
+.streamlit/
+*.log
+
+# =====================
+# OS / editor noise
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Jupyter / temp
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# Application data outputs
+# =====================
+data/
+*.tif
+*.tiff
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# =====================
+# HYRIVER cache files
+# =====================
+hyriver_cache.sqlite
+hyriver_cache*.sqlite
+
+# =====================
+# Matplotlib / figures
+# =====================
+*.png
+*.jpg
+*.jpeg
+*.svg

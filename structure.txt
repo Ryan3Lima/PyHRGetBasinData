@@ -1,0 +1,12 @@
+PyHRGetBasinData/
+├─ .venv/                     # your virtualenv (PyCharm will add this)
+├─ requirements.txt
+├─ app_streamlit.py           # the UI entry point
+└─ az_huc_tools/              # Python package
+   ├─ __init__.py
+   ├─ config.py               # CRS, default resolution, cache dir
+   ├─ huc10_index.py          # functions to list/get AZ HUC10s
+   ├─ dem.py                  # DEM retrieval
+   ├─ flowlines.py            # NHDPlusHR flowlines
+   ├─ roads.py                # OSMnx roads
+   └─ io_utils.py             # save to GeoPackage/GeoTIFF
