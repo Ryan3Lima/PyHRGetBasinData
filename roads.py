@@ -32,7 +32,7 @@ def get_roads_for_geometry(geometry, geometry_crs: int = CRS_GEO) -> gpd.GeoData
     # Download street network
     G = ox.graph_from_polygon(
         geom_ll,
-        network_type="all_public",  # or "drive", "all", etc.
+        network_type="all",  # or "drive", "all", etc.
     )
 
     # Convert to GeoDataFrames (we only need edges for roads)
